@@ -9,6 +9,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity(), View.OnClickListener
 {
     var PLAYER=true
+    //Player
     var TURNCOUNT=0
     var Rarr= Array(3){ IntArray(3)}
     lateinit var board:Array<Array<Button>>
